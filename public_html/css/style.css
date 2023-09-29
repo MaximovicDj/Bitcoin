@@ -1,0 +1,407 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:01 PM
+    Author     : frontend
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+/*font-family: 'Rubik', sans-serif;*/
+
+* {
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+body {
+    background-color: #F8F9FC;
+}
+
+
+/* Header Styling start */
+.header, 
+.slide-section {
+    background-color: #313A5A;
+}
+
+.header .navbar-nav a {
+    color: #FFFFFF;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 38px;
+}
+
+.header .navbar-nav a.login {
+    color: #1FDB84;
+}
+
+.header .navbar-nav a.login {
+    color: #1FDB84;
+}
+
+.header .navbar-nav a.active {
+    border-bottom: 3px solid #1FDB84;
+}
+
+.header .navbar-nav a:hover {
+    border-bottom: 3px solid #1FDB84;
+}
+
+.header .navbar-nav a.register-btn {
+    background-color: #1FDB84;
+    padding: 3px 28px;
+    margin-top: 4px;
+}
+
+.header .navbar-nav a.register-btn:hover {
+    border-bottom: none;
+}
+
+.header .navbar-nav a.register-btn:hover {
+    background-color: rgba(31,219,132,0.6);
+}
+
+.navbar-toggler-icon {
+    background-color: #1FDB84;
+}
+/* Header Styling End */
+
+
+
+/* Slider section styling start */
+.slide-section .container {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 156px 0 204px 0;
+}
+
+.slide-section .slider {
+    width: 50%;
+}
+
+.slider-title {
+    font-size: 48px;
+    line-height: 57px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+.slider-text {
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 35px; 
+}
+
+.owl-controls .owl-pagination {
+    text-align: right;
+}
+
+.slider-btn {
+    background-color: #1FDB84;
+    padding: 24px 55px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.slider-btn:hover {
+    background-color: rgba(31,219,132,0.6);
+}
+
+.owl-pagination .owl-page span {
+    background: #1FDB84 !important;
+}
+
+/* Slider section styling start */
+
+
+/* Info section style start*/
+
+.info-section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: -80px;
+    margin-bottom: 98px;
+}
+
+.info-section .info-section-img {
+    margin-bottom: 30px;
+}
+
+.info-section .info-section-title {
+    color: #031D5B;
+    margin-bottom: 33px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.info-section .info-section-text {
+    color: #5B6C94;
+    line-height: 32px;
+    text-align: left;
+}
+
+.info-section .info-section-border {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    background-color: #1FDB84;
+    margin-bottom: 21px;
+}
+/* Info section style end*/
+
+
+/* Paid section style start */
+
+.paid-section {
+    padding: 0 314px 0 314px;
+    margin-bottom: 116px;
+}
+
+.paid-section-title {
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #32325C;
+    margin-bottom: 90px;
+}
+
+.paid-item .paid-title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.27px;
+    text-align: center;
+    color: #32325C;
+    margin-bottom: 31px;
+}
+
+.paid-item .paid-price {
+    font-size: 72px;
+    line-height: 64px;
+    text-align: center;
+    color: #1FDB84;
+    margin-bottom: 20px;
+}
+
+.paid-item .paid-months,
+.paid-item .paid-px,
+.paid-item .paid-url,
+.paid-item .paid-links {
+    line-height: 32px;
+    letter-spacing: 0.18px;
+    text-align: center;
+    color: #5B6C94;
+}
+
+.paid-item .paid-months {
+    margin-bottom: 60px;
+}
+
+.paid-item .paid-px {
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.paid-item .paid-url {
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.paid-item .paid-links {
+    margin-bottom: 121px;
+}
+
+.paid-item {
+    transition: 0.2s;
+}
+
+.paid-item:hover {
+    border-top: 3px solid #0A8AFF;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.paid-item .paid-btn {
+    background-color: #1FDB84;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+/* Padin section style end */
+
+
+
+/* Comment section style start */
+
+.comment-section {
+    margin-bottom: 112px;
+}
+
+.comment-section-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-title-img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .section-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .comment-item {
+    padding: 70px;
+    border-radius: 6px;
+  }
+
+  .comment-item .comment-quote {
+    margin-bottom: 23px;
+  }
+
+  .comment-item .comment-text,
+  .comment-item .comment-author {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 114px;
+  }
+
+  .comment-item .comment-author {
+    margin-bottom: 0;
+    margin-right: 9px;
+  }
+
+  .comment-item:first-of-type {
+    background-color: #1FDB84;
+    color: #FFF;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .comment-item:last-of-type {
+    background-color:#FFF;
+    color: #5B6C94;
+  }
+
+.second {
+    color: #031D5B
+  }
+
+.neki {
+    margin-top: 320px;
+}
+/* Comment section style end */
+
+
+
+/* Gallery section style start */
+.gallery-section {
+    padding: 0;
+    margin-bottom: 71px;
+}
+
+.gallery-section a{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery-item {
+    position: relative; 
+    overflow: hidden;
+}
+
+.plus-icon {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50px; 
+    height: 50px;
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+
+.gallery-item:hover .plus-icon {
+    opacity: 1; 
+}
+/* Gallery section style end */
+
+
+/* Footer style start */
+.partner-title {
+    color: #031D5B;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 57px;
+}
+
+.partner-gallery{
+    margin-bottom: 147px;
+}
+
+.partner-gallery img:first-of-type {
+    margin-right: 47px;
+}
+
+.partner-gallery img:nth-of-type(2) {
+    margin-right: 48px;
+}
+
+.partner-gallery img:nth-of-type(3) {
+    margin-right: 38px;
+}
+
+.partner-gallery img:nth-of-type(4) {
+    margin-right: 54px;
+}
+
+.partner-gallery img:nth-of-type(5) {
+    margin-right: 54px;
+}
+
+.partner-gallery img:last-of-type {
+    margin-right: 65px;
+}
+
+.partner-gallery {
+    margin-bottom: 157px;
+}
+
+.footer-list,
+.footer-copyright {
+    color: #5B6C94;
+    line-height: 32px;
+    margin-bottom: 57px;
+}
+
+.footer-copyright {
+    margin-bottom: 0;
+}
+
+.footer-slash {
+    margin: 0 40px 0 40px;
+}
+
+/* Footer style end */
